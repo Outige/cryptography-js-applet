@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <!-- <script src="aes.js"></script> -->
     <script defer src="main.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <label for="">Seed</label>
-    <input type="number" id="seed" value="69">
+    <label for="">Secret</label> <input type="text" name="secret" id="secret" value="Secret">
     <h1>Decrypted text</h1>
     <textarea name="" id="decrypted-data" cols="30" rows="10"></textarea>
     <button id="encrypt-button">Encrypt</button>
